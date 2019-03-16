@@ -21,3 +21,10 @@ spec:
             cpu: "500m"
         ports:
         - containerPort: 8080
+      - name: session-slave-app
+        image: evsikovandrey/boilerplate
+        resources:
+          limits:
+            memory: "128Mi"
+            cpu: "500m"
+        

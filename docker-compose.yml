@@ -1,0 +1,15 @@
+version: '3.7'
+services:
+  session-slave-app:
+    build: 
+      dockerfile: Dockerfile
+      context: ./session-slave
+    ports: 
+      - '8080:8080'
+  client-app:
+    build: 
+      dockerfile: Dockerfile
+      context: ./client
+    ports: 
+      - '80:3000'
+
