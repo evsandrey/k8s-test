@@ -1,11 +1,20 @@
-{
-    "dependencies": {
+{   
+  "name": "boilerplate-app",
+  "version": "1.0.0",
+  "description": "boilerplate-app",
+  "main": "index.js",
+  "keywords": [
+    "boilerplate-app"
+  ],
+  "author": "evs",
+  "license": "ISC",
+  "dependencies": {
       "express": "^4.16.4",
       "mongodb": "^3.1.13",
       "body-parser": "^1.18.3",
       "cors": "^2.8.5"
-    },
-    "scripts": {
+  },
+  "scripts": {
       "start": "node index.js"
-    }
+  }
 }
